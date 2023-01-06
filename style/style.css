@@ -36,3 +36,142 @@ header {
   background: #f15b22;
   border-radius: 5px;
 }
+/* failure section */
+section {
+  max-width: 1140px;
+  margin: 140px auto 0 auto;
+}
+.failure {
+  display: flex;
+  gap: 87px;
+  align-items: center;
+  /* padding-top: 60px; */
+}
+.failure-image {
+}
+.failure-content {
+  width: 416px;
+}
+.content-heading {
+  font-weight: 700;
+  font-size: 43px;
+  color: #151414;
+  margin-bottom: 30px;
+}
+.content-description {
+  font-size: 20px;
+  color: #444343;
+  width: 416px;
+  margin-bottom: 30px;
+}
+.content-list {
+  list-style: none;
+  padding-left: 0;
+}
+.content-list li {
+  color: #444343;
+  font-size: 20px;
+}
+.fa-check {
+  margin-right: 6px;
+  color: #16d887;
+}
+.my-plans {
+  text-align: center;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.target-container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+.target-name {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin: 20px 0;
+}
+.target-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+.postive-mindset {
+  background-image: url('../images/gradient2.png'), url('../images/watch.png');
+}
+.postive-mindset-contianer {
+  width: 459px;
+  height: 182px;
+  padding: 60px 64px;
+}
+.positive-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.btn-secondary {
+  padding: 21px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 0;
+}
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 140px;
+}
+.footer-container {
+  max-width: 1140px;
+  padding-top: 130px;
+  padding-bottom: 129px;
+  margin: 0 auto;
+  display: flex;
+  gap: 331px;
+}
+.social-section {
+  width: 485px;
+}
+.social-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 30px;
+}
+.social-description,
+.conatct-mail,
+.contact-number {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.social-section a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+footer input[type="email"] {
+  background: #000;
+  height: 60px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 18px;
+  color: #f3f3f3;
+  padding: 21px;
+}
